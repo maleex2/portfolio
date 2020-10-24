@@ -2,56 +2,65 @@ import { nanoid } from 'nanoid';
 
 // HEAD DATA
 export const headData = {
-  title: '', // e.g: 'Name | Developer'
+  title: 'Martin\'s Portfolio', // e.g: 'Name | Developer'
   lang: '', // e.g: en, es, fr, jp
-  description: '', // e.g: Welcome to my website
+  description: 'Welcome to my portfolio website', // e.g: Welcome to my website
 };
 
 // HERO DATA
 export const heroData = {
   title: '',
-  name: '',
-  subtitle: '',
+  name: 'Martin',
+  subtitle: 'I am Junior Developer',
   cta: '',
 };
 
 // ABOUT DATA
 export const aboutData = {
-  img: 'profile.jpg',
-  paragraphOne: '',
-  paragraphTwo: '',
-  paragraphThree: '',
-  resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
+  img: 'photo.jpg',
+  paragraphOne: 'Fourth year university student, aiming for first class honours Computer Science degree ',
+  paragraphTwo: 'Great team player, open minded and ambitious. I have a strong passion for learning new technologies and improving myself',
+  paragraphThree: 'Excited about working in a dynamic environment along with people with strong passion and drive for development',
+  resume: 'https://docs.google.com/uc?export=download&id=11DdNNw9e2_hs7GOMyBzs22F1LNhqkae5', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
+    img: 'movie.jpg',
+    title: 'The Movie Catalog',
+    info: 'An app using The Movie Database\'s API to search and browse milions of movies, TV shows and celebrities.',
+    info2: 'The app is made with React, Node, Material-UI and hooks. Simply type in the search box and hit Enter',
+    url: 'https://tender-neumann-cd156a.netlify.app/',
+    repo: 'https://github.com/maleex2/movie-catalog', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'weatherr.jpg',
+    title: 'What is The Weather',
+    info: 'Webpage allowing you to check the weather in every city in the world',
+    info2: 'The app is created using React, Node, npm, Material-UI, GSAP animations and the OpenWeatherMap\'s API',
+    url: 'https://silly-lamarr-5c87cf.netlify.app/',
+    repo: 'https://github.com/maleex2/Weather-API', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'chat.jpg',
+    title: 'Realtime Chat',
+    info: 'Chat with your friends realtime - quick and easy - No need of account - Just join a room with a nickname',
+    info2: 'Made with React on the front end, with NodeJS + Socket.io web socket library on the back end',
+    url: 'https://epic-brahmagupta-d61f3d.netlify.app/',
     repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
-  },
-  {
-    id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    img: 'cycle.jpg',
+    title: 'Cyclist\'s Assist',
+    info: 'A web application allowing users to track speed, distance and score which can be saved and compared on a leaderboard ',
+    info2: 'Made with React on the front end, Firebase and NodeJS on the back end ',
+    url: 'https://groupq-cs317-cycle-support-app.netlify.app/',
+    repo: 'https://github.com/maleex2/Cycle', // if no repo, the button will not show up
   },
 ];
 
@@ -59,7 +68,7 @@ export const projectsData = [
 export const contactData = {
   cta: '',
   btn: '',
-  email: '',
+  email: 'martin.aleksandrov.mga@gmail.com',
 };
 
 // FOOTER DATA
@@ -67,28 +76,18 @@ export const footerData = {
   networks: [
     {
       id: nanoid(),
-      name: 'twitter',
-      url: '',
-    },
-    {
-      id: nanoid(),
-      name: 'codepen',
-      url: '',
-    },
-    {
-      id: nanoid(),
       name: 'linkedin',
-      url: '',
+      url: 'https://www.linkedin.com/in/martin-aleksandrov-322642195/',
     },
     {
       id: nanoid(),
       name: 'github',
-      url: '',
+      url: 'https://github.com/maleex2',
     },
   ],
 };
 
 // Github start/fork buttons
 export const githubButtons = {
-  isEnabled: true, // set to false to disable the GitHub stars/fork buttons
+  isEnabled: false, // set to false to disable the GitHub stars/fork buttons
 };

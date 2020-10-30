@@ -21,7 +21,7 @@ export const aboutData = {
   paragraphOne: 'Fourth year university student, aiming for first class honours Computer Science degree ',
   paragraphTwo: 'Great team player, open minded and ambitious. I have a strong passion for learning new technologies and improving myself',
   paragraphThree: 'Excited about working in a dynamic environment along with people with strong passion and drive for development',
-  resume: 'https://docs.google.com/uc?export=download&id=1bLO2epjabOeiQoVFTDA-R5SBmD_tJ-xM', // if no resume, the button will not show up
+  resume: 'https://docs.google.com/uc?export=download&id=14vS97vGj6Hl9HSNRM9jdanWoGTjXDN7e', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA

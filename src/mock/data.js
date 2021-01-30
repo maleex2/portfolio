@@ -2,9 +2,9 @@ import { nanoid } from 'nanoid';
 
 // HEAD DATA
 export const headData = {
-  title: 'Martin\'s Portfolio', // e.g: 'Name | Developer'
-  lang: '', // e.g: en, es, fr, jp
-  description: 'Welcome to my portfolio website', // e.g: Welcome to my website
+  title: 'Martin\'s Portfolio',
+  lang: '', 
+  description: 'Welcome to my portfolio website', 
 };
 
 // HERO DATA
@@ -32,7 +32,7 @@ export const projectsData = [
     title: 'The Movie Catalog',
     info: 'An app using The Movie Database\'s API to search and browse milions of movies, TV shows and celebrities.',
     info2: 'The app is made with React, Node, Material-UI and hooks. Simply type in the search box and hit Enter',
-    url: 'https://tender-neumann-cd156a.netlify.app/',
+    url: 'https://move-catalog.netlify.app/',
     repo: 'https://github.com/maleex2/movie-catalog', // if no repo, the button will not show up
   },
   {
@@ -41,7 +41,7 @@ export const projectsData = [
     title: 'What is The Weather',
     info: 'Webpage allowing you to check the weather in every city in the world',
     info2: 'The app is created using React, Node, npm, Material-UI, GSAP animations and the OpenWeatherMap\'s API',
-    url: 'https://silly-lamarr-5c87cf.netlify.app/',
+    url: 'https://check-the-weather-now.netlify.app/',
     repo: 'https://github.com/maleex2/Weather-API', // if no repo, the button will not show up
   },
   {
@@ -50,7 +50,7 @@ export const projectsData = [
     title: 'Realtime Chat',
     info: 'Chat with your friends realtime - quick and easy - No need of account - Just join a room with a nickname',
     info2: 'Made with React on the front end, with NodeJS + Socket.io web socket library on the back end',
-    url: 'https://epic-brahmagupta-d61f3d.netlify.app/',
+    url: 'https://easy-chat.netlify.app',
     repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
   },
   {

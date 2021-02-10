@@ -20,9 +20,9 @@ export const aboutData = {
   img: 'photo.jpg',
   paragraphOne: 'Fourth year university student, aiming for first class honours Computer Science degree ',
   paragraphTwo: 'Excited about working in a dynamic environment along with people with strong passion and drive for development',
-  resume: 'https://docs.google.com/uc?export=download&id=14vS97vGj6Hl9HSNRM9jdanWoGTjXDN7e', // if no resume, the button will not show up
+  resume: 'https://docs.google.com/uc?export=download&id=1120Ono5lmbKgC0WS2x6qA5gX608D0qLJ', // if no resume, the button will not show up
 };
-
+                                                          
 // PROJECTS DATA
 export const projectsData = [
   {
